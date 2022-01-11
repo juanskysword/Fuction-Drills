@@ -1,8 +1,7 @@
-/*
-  Some of the following questions will ask you to use
-  arrow function syntax. On the problems that don't,
-  feel free to practice with any syntax.
-*/
+// Some of the following questions will ask you to use
+ // arrow function syntax. On the problems that don't,
+  //feel free to practice with any syntax.
+//*/
 
 
 ////////////////// PROBLEM 1 ////////////////////
@@ -12,9 +11,13 @@
 */
 
 //CODE HERE
-    function HelloWorld(HelloWorld){
-     console.log(HelloWorld,'!')
+    // function HelloWorld('Hello','World','!'){
+    //  return HelloWorld!
+    // }
+    function HelloWorld(){
+      console.log ('Hello World!');
     }
+    HelloWorld('');
       
 
 ////////////////// PROBLEM 2 ////////////////////
@@ -24,10 +27,10 @@
 */
 
 //CODE HERE
-    function jsNinja (I am a JavaScipt ninja){
-      const parse =parseInt(String)
+    function jsNinja (){
+      console.log ('I am a JavaScript ninja!')
     }
-    console.log(parse)
+    jsNinja ('');
 
 ////////////////// PROBLEM 3 ////////////////////
 /*
@@ -37,9 +40,10 @@
 */
 
 //CODE HERE
-    function printName(Cameron) {
-      return Cameron
-    }
+    function printName(name){
+    console.log (name + ' Logged');
+}
+  printName('Cameron')
 
 ////////////////// PROBLEM 4 ////////////////////
 /*
@@ -53,10 +57,11 @@
 */
 
 //CODE HERE
-    function greeting (name){
-      name = String(name)
-        console.log(`Hello ${name}`)
-        
+function greeting(name){
+  console.log('Hello ' + name );
+}
+  greeting('Jake')
+
 
 
 
@@ -72,19 +77,7 @@
 */
 
 //CODE HERE
-      function compareNums(num1, num2) => {
-        console.log(num1, num2)}
-          if (num1 === num2);{
-            console.log(num1 , num2)
-          }
-          else if (num1 > num2 );{
-            console.log(num1)
-          }
-          else {
-            console.log(num2)
-          }
-
-      }
+    
 
 
       // Function compareNums(num) {
@@ -178,18 +171,17 @@ function exclaimFour(str) {
 */
 
 //CODE HERE
-  function nameCheck(name){
-      if (name === Steven ){
-        console.log('What is up Steven?')
-        if (name === bryan ){
-          console.log('Hey Bryan')
-        }
-        else {
-          console.log(Cool name, NAMEPARAM)
-        }
-      }
+function nameCheck(name){
+  name = name.toLowerCase()
 
+  if(name === 'steven'){
+    return `What's up Stephen`
+  } else if(name === 'brian'){
+    return `what's up Bryan`
+  } else {
+    return `Cool name ${name}`
   }
+}
 
 
 ////////////////// PROBLEM 11 ////////////////////
@@ -203,7 +195,11 @@ function exclaimFour(str) {
 */
 
 //CODE HERE
-
+ function faveColorFinder(color){
+   if (red = `${color}`);{
+     return('red is a great color';
+   }
+ }
 
 ////////////////// PROBLEM 12 ////////////////////
 let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
@@ -214,7 +210,15 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 */
 
 //CODE HERE
+ function printAllNames('namesArr'){
+    
+   for (let i = 0; i < namesArr.length; i++);
+    if(namesArr[i])
+      console.log(`${namesArr}`)
 
+ }
+
+ 
 
 ////////////////// PROBLEM 13 ////////////////////
 /*
@@ -225,6 +229,14 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 */
 
 //CODE HERE
+ function tatsodd(number){
+   if (number % == 0 )
+        console.log('that is not odd!')}
+        else { 
+          console.log('that is odd indeed')
+        }
+
+ }
 
 
 ////////////////// PROBLEM 14 ////////////////////
