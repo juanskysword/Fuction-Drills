@@ -12,7 +12,10 @@
 */
 
 //CODE HERE
-
+    function HelloWorld(HelloWorld){
+     console.log(HelloWorld,'!')
+    }
+      
 
 ////////////////// PROBLEM 2 ////////////////////
 
@@ -21,7 +24,10 @@
 */
 
 //CODE HERE
-
+    function jsNinja (I am a JavaScipt ninja){
+      const parse =parseInt(String)
+    }
+    console.log(parse)
 
 ////////////////// PROBLEM 3 ////////////////////
 /*
@@ -31,7 +37,9 @@
 */
 
 //CODE HERE
-
+    function printName(Cameron) {
+      return Cameron
+    }
 
 ////////////////// PROBLEM 4 ////////////////////
 /*
@@ -45,6 +53,11 @@
 */
 
 //CODE HERE
+    function greeting (name){
+      name = String(name)
+        console.log(`Hello ${name}`)
+        
+
 
 
 ////////////////// PROBLEM 5 ////////////////////
@@ -59,6 +72,29 @@
 */
 
 //CODE HERE
+      function compareNums(num1, num2) => {
+        console.log(num1, num2)}
+          if (num1 === num2);{
+            console.log(num1 , num2)
+          }
+          else if (num1 > num2 );{
+            console.log(num1)
+          }
+          else {
+            console.log(num2)
+          }
+
+      }
+
+
+      // Function compareNums(num) {
+      //   return (num ? '1' : '5');
+      // }
+      //   console.log(compareNums(true));
+      //   console.log(compareNums(false));
+      //   console.log(compareNums(null));
+
+      // }
 
 
 ////////////////// PROBLEM 6 ////////////////////
@@ -70,7 +106,10 @@
 */
 
 //CODE HERE
-
+      function add(one, two){
+       const numadd=parseInt(add)
+       return one + two;
+      }
 
 ////////////////// PROBLEM 7 ////////////////////
 
@@ -84,7 +123,7 @@ const exclaim = function(str) {
 }
 
 // arrow
-// declaration
+ declaration
 // expression
 
 
@@ -100,7 +139,7 @@ const exclaimTwo = str => {
   return str.toUpperCase() + '!!!'
 }
 
-// arrow
+ arrow
 // declaration
 // expression
 
@@ -125,7 +164,7 @@ function exclaimFour(str) {
 }
 
 // arrow
-// declaration
+ declaration
 // expression
 
 
@@ -139,6 +178,18 @@ function exclaimFour(str) {
 */
 
 //CODE HERE
+  function nameCheck(name){
+      if (name === Steven ){
+        console.log('What is up Steven?')
+        if (name === bryan ){
+          console.log('Hey Bryan')
+        }
+        else {
+          console.log(Cool name, NAMEPARAM)
+        }
+      }
+
+  }
 
 
 ////////////////// PROBLEM 11 ////////////////////
